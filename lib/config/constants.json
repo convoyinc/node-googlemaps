@@ -54,7 +54,8 @@
       "avoid":          "string",
       "units":          "string",
       "channel":        "string",
-      "departure_time": "date"
+      "departure_time": "date",
+      "traffic_model":  "string"
     },
     "directions": {
       "origin":         "string",
@@ -68,7 +69,8 @@
       "units":          "string",
       "departure_time": "date",
       "channel":        "string",
-      "arrival_time":   "date"
+      "arrival_time":   "date",
+      "traffic_model":  "string"
     },
     "elevation": {
       "locations": "string",
@@ -91,6 +93,12 @@
       "channel":  "string",
       "style":    "array"
     },
+    "timezone": {
+      "location": "string",
+      "timestamp":"number",
+      "channel":  "string",
+      "language": "string"
+    },
     "street-map": {
       "location": "string",
       "pano":     "string",
@@ -111,6 +119,7 @@
     "place-details":   "/maps/api/place/details/json",
     "place-search":    "/maps/api/place/nearbysearch/json",
     "static-map":      "/maps/api/staticmap",
+    "timezone":        "/maps/api/timezone/json",
     "street-view":     "/maps/api/streetview"
   }
 
