@@ -22,11 +22,13 @@
       "radius":    "number",
       "rankby":    "string",
       "sensor":    "string",
+      "channel":   "string",
       "types":     "string"
     },
     "place-details": {
       "placeid":    "string",
       "extensions": "string",
+      "channel":    "string",
       "language":   "string"
     },
     "geocode": {
@@ -34,12 +36,14 @@
       "components": "string",
       "bounds":     "string",
       "language":   "string",
+      "channel":    "string",
       "region":     "string"
     },
     "reverse-geocode": {
       "latlng":        "string",
       "result_type":   "string",
       "language":      "string",
+      "channel":       "string",
       "location_type": "string"
     },
     "distance-matrix": {
@@ -49,6 +53,7 @@
       "language":       "string",
       "avoid":          "string",
       "units":          "string",
+      "channel":        "string",
       "departure_time": "date"
     },
     "directions": {
@@ -62,11 +67,13 @@
       "region":         "string",
       "units":          "string",
       "departure_time": "date",
+      "channel":        "string",
       "arrival_time":   "date"
     },
     "elevation": {
       "locations": "string",
       "path": "string",
+      "channel":   "string",
       "samples": "string"
     },
     "static-map": {
@@ -81,6 +88,7 @@
       "markers":  "array",
       "path":     "array",
       "visible":  "string",
+      "channel":  "string",
       "style":    "array"
     },
     "street-map": {
@@ -89,6 +97,7 @@
       "size":     "string",
       "heading":  "number",
       "fov":      "number",
+      "channel":  "string",
       "pitch":    "number"
     }
 
